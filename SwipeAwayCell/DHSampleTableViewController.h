@@ -1,5 +1,5 @@
 //
-//  DHViewController.h
+//  DHSampleTableViewController.h
 //  SwipeAwayCell
 //
 //  Created by derrick on 4/29/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DHViewController : UIViewController
+@interface DHSampleTableViewController : UITableViewController
 
 @end

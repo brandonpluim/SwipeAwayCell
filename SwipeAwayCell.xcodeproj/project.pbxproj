@@ -16,14 +16,14 @@
 		499BDD6B172EC54C0035DDE5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 499BDD6A172EC54C0035DDE5 /* Default.png */; };
 		499BDD6D172EC54C0035DDE5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 499BDD6C172EC54C0035DDE5 /* Default@2x.png */; };
 		499BDD6F172EC54C0035DDE5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 499BDD6E172EC54C0035DDE5 /* Default-568h@2x.png */; };
-		499BDD72172EC54C0035DDE5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499BDD70172EC54C0035DDE5 /* MainStoryboard_iPhone.storyboard */; };
-		499BDD75172EC54C0035DDE5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499BDD73172EC54C0035DDE5 /* MainStoryboard_iPad.storyboard */; };
-		499BDD78172EC54C0035DDE5 /* DHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 499BDD77172EC54C0035DDE5 /* DHViewController.m */; };
+		499BDD72172EC54C0035DDE5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499BDD70172EC54C0035DDE5 /* MainStoryboard.storyboard */; };
 		499BDD80172EC54C0035DDE5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499BDD7F172EC54C0035DDE5 /* SenTestingKit.framework */; };
 		499BDD81172EC54C0035DDE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499BDD58172EC54C0035DDE5 /* UIKit.framework */; };
 		499BDD82172EC54C0035DDE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 499BDD5A172EC54C0035DDE5 /* Foundation.framework */; };
 		499BDD8A172EC54C0035DDE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 499BDD88172EC54C0035DDE5 /* InfoPlist.strings */; };
 		499BDD8D172EC54C0035DDE5 /* SwipeAwayCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 499BDD8C172EC54C0035DDE5 /* SwipeAwayCellTests.m */; };
+		499BDD98172EC5CF0035DDE5 /* DHSampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 499BDD97172EC5CF0035DDE5 /* DHSampleTableViewController.m */; };
+		499BDD9B172EC6240035DDE5 /* DHSwipeAwayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 499BDD9A172EC6240035DDE5 /* DHSwipeAwayCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,16 +50,17 @@
 		499BDD6A172EC54C0035DDE5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		499BDD6C172EC54C0035DDE5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		499BDD6E172EC54C0035DDE5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		499BDD71172EC54C0035DDE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		499BDD74172EC54C0035DDE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		499BDD76172EC54C0035DDE5 /* DHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHViewController.h; sourceTree = "<group>"; };
-		499BDD77172EC54C0035DDE5 /* DHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHViewController.m; sourceTree = "<group>"; };
+		499BDD71172EC54C0035DDE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		499BDD7E172EC54C0035DDE5 /* SwipeAwayCellTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeAwayCellTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		499BDD7F172EC54C0035DDE5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		499BDD87172EC54C0035DDE5 /* SwipeAwayCellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwipeAwayCellTests-Info.plist"; sourceTree = "<group>"; };
 		499BDD89172EC54C0035DDE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		499BDD8B172EC54C0035DDE5 /* SwipeAwayCellTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeAwayCellTests.h; sourceTree = "<group>"; };
 		499BDD8C172EC54C0035DDE5 /* SwipeAwayCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeAwayCellTests.m; sourceTree = "<group>"; };
+		499BDD96172EC5CF0035DDE5 /* DHSampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSampleTableViewController.h; sourceTree = "<group>"; };
+		499BDD97172EC5CF0035DDE5 /* DHSampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSampleTableViewController.m; sourceTree = "<group>"; };
+		499BDD99172EC6240035DDE5 /* DHSwipeAwayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSwipeAwayCell.h; sourceTree = "<group>"; };
+		499BDD9A172EC6240035DDE5 /* DHSwipeAwayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSwipeAwayCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,11 +122,12 @@
 			children = (
 				499BDD67172EC54C0035DDE5 /* DHAppDelegate.h */,
 				499BDD68172EC54C0035DDE5 /* DHAppDelegate.m */,
-				499BDD70172EC54C0035DDE5 /* MainStoryboard_iPhone.storyboard */,
-				499BDD73172EC54C0035DDE5 /* MainStoryboard_iPad.storyboard */,
-				499BDD76172EC54C0035DDE5 /* DHViewController.h */,
-				499BDD77172EC54C0035DDE5 /* DHViewController.m */,
+				499BDD70172EC54C0035DDE5 /* MainStoryboard.storyboard */,
 				499BDD5F172EC54C0035DDE5 /* Supporting Files */,
+				499BDD96172EC5CF0035DDE5 /* DHSampleTableViewController.h */,
+				499BDD97172EC5CF0035DDE5 /* DHSampleTableViewController.m */,
+				499BDD99172EC6240035DDE5 /* DHSwipeAwayCell.h */,
+				499BDD9A172EC6240035DDE5 /* DHSwipeAwayCell.m */,
 			);
 			path = SwipeAwayCell;
 			sourceTree = "<group>";
@@ -239,8 +241,7 @@
 				499BDD6B172EC54C0035DDE5 /* Default.png in Resources */,
 				499BDD6D172EC54C0035DDE5 /* Default@2x.png in Resources */,
 				499BDD6F172EC54C0035DDE5 /* Default-568h@2x.png in Resources */,
-				499BDD72172EC54C0035DDE5 /* MainStoryboard_iPhone.storyboard in Resources */,
-				499BDD75172EC54C0035DDE5 /* MainStoryboard_iPad.storyboard in Resources */,
+				499BDD72172EC54C0035DDE5 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +278,8 @@
 			files = (
 				499BDD65172EC54C0035DDE5 /* main.m in Sources */,
 				499BDD69172EC54C0035DDE5 /* DHAppDelegate.m in Sources */,
-				499BDD78172EC54C0035DDE5 /* DHViewController.m in Sources */,
+				499BDD98172EC5CF0035DDE5 /* DHSampleTableViewController.m in Sources */,
+				499BDD9B172EC6240035DDE5 /* DHSwipeAwayCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,20 +310,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		499BDD70172EC54C0035DDE5 /* MainStoryboard_iPhone.storyboard */ = {
+		499BDD70172EC54C0035DDE5 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				499BDD71172EC54C0035DDE5 /* en */,
 			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		499BDD73172EC54C0035DDE5 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				499BDD74172EC54C0035DDE5 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
+			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 		499BDD88172EC54C0035DDE5 /* InfoPlist.strings */ = {
